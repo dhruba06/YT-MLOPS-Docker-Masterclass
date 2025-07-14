@@ -1,4 +1,4 @@
-FROM python:3-alpine3.15
+FROM python:3-slim-bullseye
 
 # Set the working directory in the container
 WORKDIR /app
